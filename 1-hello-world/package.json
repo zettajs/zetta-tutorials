@@ -1,0 +1,14 @@
+{
+  "name": "1-hello-world",
+  "version": "1.0.0",
+  "description": "Welcome to Zetta! In this tutorial, we will build the Zetta version of \"Hello, World!\". When you finish, you will know how to:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zetta": "^0.33.0"
+  }
+}
