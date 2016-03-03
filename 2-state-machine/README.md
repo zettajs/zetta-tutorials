@@ -323,21 +323,21 @@ Here you can discover what actions the actual device is capable of performing. T
     "id": "7cbf5759-4106-4985-83aa-e970fe13490d",
     "name": "State Machine Device",
     "type": "state_machine",
-    "state": "on"
+    "state": "off"
   },
   "actions": [
     {
       "class": [
         "transition"
       ],
-      "name": "turn-off",
+      "name": "turn-on",
       "method": "POST",
       "href": "http://127.0.0.1:1337/servers/State%20Machine%20Server/devices/7cbf5759-4106-4985-83aa-e970fe13490d",
       "fields": [
         {
           "name": "action",
           "type": "hidden",
-          "value": "turn-off"
+          "value": "turn-on"
         }
       ]
     }
