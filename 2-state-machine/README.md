@@ -108,7 +108,7 @@ Zetta is running at http://127.0.0.1:1337
 Now, create a new JavaScript file for our device driver code.
 
 1. If you're not there, change to the `state-machine` directory. 
-2. In a text editor, create a new file called `index.js`, and edit it as follows:
+2. In a text editor, create a new file called `device.js`, and edit it as follows:
 
     a. Require these libraries:
 
