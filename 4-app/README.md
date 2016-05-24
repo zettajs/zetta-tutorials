@@ -188,7 +188,7 @@ This code tells the function to pass the name to the constructor of each device 
         var StateMachine_2_Query = server.where({type: 'state_machine', name: 'machine_2'});
         var StateMachine_3_Query = server.where({type: 'state_machine', name: 'machine_3'});
 
-        server.observe([StateMachine_1_Query, StateMachine_2_Query, StateMachine_3_Query], function(state_machine) {
+        server.observe([StateMachine_1_Query, StateMachine_2_Query, StateMachine_3_Query], function(machine_1, machine_2, machine_3) {
         
           console.log("State Machine came online: " + machine_1.name + ", " + machine_2.name + ", " + machine_3.name);
         });
