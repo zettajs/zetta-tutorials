@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zetta": "^0.33.0"
+    "zetta": "latest"
   }
 }
